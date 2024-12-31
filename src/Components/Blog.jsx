@@ -48,6 +48,7 @@ const Blog = () => {
 									<motion.span
 										variants={{
 											hidden: { rotate: "90deg", y: "40%", opacity: 0 },
+											viewport: { once: true, amount: 0.5 },
 											visible: {
 												rotate: 0,
 												y: 0,
