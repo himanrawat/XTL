@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "TWKLausanne";
+	src: url("../public/fonts/TWKLausanne-300.woff2") format("woff2");
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: "TWKLausanne";
+	src: url("../public/fonts/TWKLausanne-400.woff2") format("woff2");
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "TWKLausanne";
+	src: url("../public/fonts/TWKLausanne-500.woff2") format("woff2");
+	font-weight: 500;
+	font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
